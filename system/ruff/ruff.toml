@@ -36,6 +36,7 @@ exclude = [
 
 
 [lint]
+preview = true
 select = ["ALL"]
 ignore = [
     "W191",
@@ -55,6 +56,12 @@ fixable = ["ALL"]
 unfixable = []
 
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+
+
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401"]
 
 
 
