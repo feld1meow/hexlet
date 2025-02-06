@@ -39,18 +39,21 @@ exclude = [
 preview = true
 select = ["ALL"]
 ignore = [
-    "W191",
+    "COM812",
+    "COM819",
+    "CPY001"
+    "D100",
+    "D103",
+    "D206",
+    "D300",
     "E111",
     "E114",
     "E117",
-    "D206",
-    "D300",
     "Q000",
     "Q001",
     "Q002",
     "Q003",
-    "COM812",
-    "COM819"
+    "W191"
 ]
 fixable = ["ALL"]
 unfixable = []
